@@ -1,0 +1,5 @@
+D:\Дима\GB\Выбор специализации\Test task\obj\Debug\net6.0\Test task.csproj.AssemblyReference.cache
+D:\Дима\GB\Выбор специализации\Test task\obj\Debug\net6.0\Test task.GeneratedMSBuildEditorConfig.editorconfig
+D:\Дима\GB\Выбор специализации\Test task\obj\Debug\net6.0\Test task.AssemblyInfoInputs.cache
+D:\Дима\GB\Выбор специализации\Test task\obj\Debug\net6.0\Test task.AssemblyInfo.cs
+D:\Дима\GB\Выбор специализации\Test task\obj\Debug\net6.0\Test task.csproj.CoreCompileInputs.cache
