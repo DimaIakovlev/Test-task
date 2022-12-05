@@ -1,17 +1,17 @@
 ﻿Console.Clear();
-Console.Write("Введите члены массива через запятую");
-string temp = Console.ReadLine();
-string[] arrayA = temp.Split(new Char[] { ' ' });
-string[arrayA.GetLength()] arrayB = "";
-for (int i = 0; i < arrayA.GetLength(); i++)
+Console.Write("Введите члены массива через пробел: ");
+var temp = Console.ReadLine().Split(' ').Select(token=> int.Parse(token));
+string[] baseArray = GetArrayFromString(temp);
+
+string[] GetArrayFromString(string stringArray)
 {
-    if (arrayA.GetLength(i) == 3)
+    int[] numbers = stringArray.Split(" ", StringSplitOptions.RemoveEmptyEntries);
+    int[] res = new int[numbers.Length];
+
+    for (int i = 0; i < numbers.Length; i++)
     {
-        arrayB[i] = arrayA[i];
+        res[i] = string.Parse(numbers[i]);
     }
+    return res;
 }
 
-for (int i = 0; i < arrayB.GetLength(); i++)
-{
-    Console.Write(arrayB[i]);
-}
